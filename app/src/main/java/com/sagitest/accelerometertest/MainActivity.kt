@@ -10,6 +10,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatDelegate
 import kotlinx.android.synthetic.main.activity_main.*
 
+//For reference: https://www.youtube.com/watch?v=xcsuDDQHrLo
+
 class MainActivity : AppCompatActivity() , SensorEventListener{
 
     private lateinit var sensorManager: SensorManager
